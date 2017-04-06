@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telphone=no, email=no">
+	<title>农源</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<img class="img-responsive" src="images/1.png">
+		</div>
+		<div class="row row2 center">
+			<div class="col-xs-5 col-lg-5" style="padding-left:0.2em" >
+				<ul class="mtxt">
+					<li class="mlabel" >杭州农产品协会指定</li>
+					<li class="mlabel">第三方专业检测</li>
+					<li class="mlabel">农源认证</li>
+				</ul>
+			</div>
+			<div class="col-xs-1 col-lg-1" style="padding-right:0"></div>
+			<div class="col-xs-6 col-lg-6" style="padding-right:0.5em">
+				<a href="remark.html" class="mybtn mybtn2"></a>
+				<a href="#" id="mybtn1" class="mybtn mybtn1"></a>				
+			</div>
+		</div>
+		<div class="row row3">
+			<img class="img-responsive" src="images/4.png">
+			<a href="http://daoyou.worldmaipu.com/weixin/hand_map!LoadPage.action?plg_nld=1&enkeys=7bc1ec1d9c3426357e69acd5bf320061&plg_uin=1&plg_auth=1&plg_usr=1&plg_dev=1&plg_vkey=1&plg_nld=1" class="gobtn"></a>
+		</div>
+		<div class="row row4 center">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4 col-lg-4">
+						<div class="syzl mylink">
+							<a href="syzl.html"  >
+							<img src="images/7.png">
+								溯源之路
+							</a>
+						</div>
+						<div class="ncsj mylink">
+							<a href="ncsj.html">
+							<img src="images/10.png">农场数据</a>
+						</div>
+					</div>
+					<div class="col-xs-4 col-lg-4">
+						<div id="zblv" class="zblv">
+							<a href="#"  >
+							<img src="images/8.png">
+								<span class="zblv2">直播live</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-4 col-lg-4">
+						<div class="nscz mylink">
+							<a href="nscz.html"  >
+							<img src="images/9.png">
+								农事操作
+							</a>
+						</div>
+						<div class="zjjd mylink">
+							<a href="zjjd.html">
+							<img src="images/11.png">质检解读</a>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row center">
+			<img class="img-responsive" src="images/6.png">
+		</div>
+	</div>
+	<div id="ewm">
+	    <span class="close">X</span>
+		<img class="img-responsive" src="images/ewm.jpg">
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	window.onload=function(){
+		var oEwm=document.getElementById("ewm");
+		var oClose=oEwm.getElementsByTagName("span")[0];
+		var oBtn2=document.getElementById("mybtn1");
+		//oEwm.style.display="none";
+		oClose.onclick=function(){
+			oEwm.style.display="none";
+		}
+		var oBtn1=document.getElementById("zblv");
+		oBtn1.onclick=function(){
+			alert('a');
+		}
+		oBtn2.onclick=function(){
+			oEwm.style.display="block";
+		}
+	}
+</script>
